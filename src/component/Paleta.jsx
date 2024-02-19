@@ -13,7 +13,7 @@ const VykresliPaletu = ({name, colors, descr, image, attrib, direction}) => {
           <div className="palette-info">
             <h2>{name}</h2>
             <p>{descr}</p>
-            <p>Photo by <a href={{attrib}.url} target="_blank">{{attrib}.name}</a>.</p>
+            <p>Photo by <a href={attrib.url} target="_blank">{attrib.name}</a>.</p>
           </div>
         </div>
       </> 
